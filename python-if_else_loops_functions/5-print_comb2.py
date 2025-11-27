@@ -2,4 +2,4 @@
 for i in range(0, 99):
     print("{0:0=2d}".format(i), end=", ")
 
-print("{}\n".format(99))
+print("{}".format(99), end="\n")
