@@ -1,0 +1,1 @@
+in this dir will learn datastructures: lists, tuples
