@@ -36,6 +36,9 @@ def roman_to_int(roman_string):
         elif i < len(rs) - 1 and rs[i] == "I" and rs[i + 1] == "X":
             result += 9
             i += 2
+        elif i < len(rs) - 1 and rs[i] == "I" and rs[i + 1] == "V":
+            result += 4
+            i += 2
         elif rs[i] == "V":
             result += 5
             i += 1
