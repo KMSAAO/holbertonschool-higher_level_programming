@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    if not roman_string:
+    if not roman_string or not isinstance(roman_string, str):
         return 0
     result = 0
     rs = roman_string
@@ -12,7 +12,7 @@ def roman_to_int(roman_string):
         elif i < len(rs) - 1 and rs[i] == "C" and rs[i + 1] == "M":
             result += 900
             i += 2
-        elif i < len(rs) - 1 and rs[i] == "D" and rs[i + 1] == "C":
+        elif i < len(rs) - 1 and rs[i] == "C" and rs[i + 1] == "D":
             result += 400
             i += 2
         elif rs[i] == "D":
