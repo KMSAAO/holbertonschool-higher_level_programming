@@ -17,6 +17,11 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
+        """
+        Docstring for width
+
+        :param value: the value is the width of rectangle
+        """
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         elif value < 0:
@@ -29,6 +34,11 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
+        """
+        Docstring for height
+
+        :param value: value is the height of the rectangle
+        """
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         elif value < 0:
