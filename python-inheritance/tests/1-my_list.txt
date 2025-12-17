@@ -13,3 +13,8 @@ Test 1: All elements will be integer:
 Test 2: Check __str__:
     >>> print(my_list1)
     [1, 4, 2, 3, 5]
+
+Test 3: Check append():
+    >>> my_list1.append(0)
+    >>> my_list1.print_sorted()
+    [0, 1, 2, 3, 4, 5]
