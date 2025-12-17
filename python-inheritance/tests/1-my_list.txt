@@ -9,3 +9,9 @@ Define var:
 Test 1: All elements will be integer:
     >>> my_list1.print_sorted()
     [1, 2, 3, 4, 5]
+
+Test 2: if there string in the list:
+    >>> my_list1.print_sorted()
+    Traceback (most recent call last):
+    ...
+    TypeError: '<' not supported between instances of 'str' and 'int'
