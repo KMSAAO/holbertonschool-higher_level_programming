@@ -12,6 +12,6 @@ Test 1: All elements will be integer:
     >>> my_list1.print_sorted()
     [1, 2, 3, 4, 5]
 
-Test 2: If I enter the list without the method:
+Test 2: Check __str__:
     >>> print(my_list)
     [3, 2, 1]
