@@ -5,6 +5,7 @@ Import function:
 
 Define var:
     >>> my_list1 = MyList([1, 4, 2, 3, 5])
+    >>> empty_list = MyList([])
 
 Test 1: All elements will be integer:
     >>> my_list1.print_sorted()
@@ -23,3 +24,7 @@ Test 4: check print_sorted() with no sorted append with negative number:
     >>> my_list1.append(-2)
     >>> my_list1.print_sorted()
     [-2, 0, 1, 2, 3, 4, 5]
+
+Test 5: check print_sorted() with empty list:
+    >>> empty_list.print_sorted()
+    []
