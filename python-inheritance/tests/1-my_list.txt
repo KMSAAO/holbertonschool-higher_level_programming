@@ -5,13 +5,11 @@ Import function:
 
 Define var:
     >>> my_list1 = MyList([1, 4, 2, 3, 5])
-    >>> my_list2 = MyList([1, 2, 3, "d", 5])
-    >>> my_list = [3, 2, 1]
 
 Test 1: All elements will be integer:
     >>> my_list1.print_sorted()
     [1, 2, 3, 4, 5]
 
 Test 2: Check __str__:
-    >>> print(my_list)
-    [3, 2, 1]
+    >>> print(my_list1)
+    [1, 4, 2, 3, 5]
