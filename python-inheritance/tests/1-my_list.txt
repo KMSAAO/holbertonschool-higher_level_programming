@@ -1,0 +1,11 @@
+Test for my_list
+================
+Import function:
+    >>> MyList = __import__('1-my_list').MyList
+
+Define var:
+    >>> my_list1 = MyList([1, 4, 2, 3, 5])
+
+Test 1: All elements will be integer:
+    >>> my_list1.print_sorted()
+    [1, 2, 3, 4, 5]
