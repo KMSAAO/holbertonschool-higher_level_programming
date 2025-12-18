@@ -13,7 +13,4 @@ def is_same_class(obj, a_class):
     :param obj: the object want to check
     :param a_class: the format
     """
-    if isinstance(type(obj), a_class):
-        return True
-    else:
-        return False
+    return type(obj) is a_class
