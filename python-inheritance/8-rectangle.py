@@ -27,8 +27,8 @@ class Rectangle(BaseGeometry):
     This class provides an Instantiation with width and height
     """
     def __init__(self, width, height):
-        bg = BaseGeometry()
-        self.__width = width
+        self.integer_validator("width", width)
+        self.integer_validator("height", height)
+
         self.__height = height
-        bg.integer_validator("width", self.__width)
-        bg.integer_validator("height", self.__height)
+        self.__width = width
