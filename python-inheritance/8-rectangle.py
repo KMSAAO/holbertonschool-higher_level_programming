@@ -23,6 +23,9 @@ class BaseGeometry:
 
 
 class Rectangle(BaseGeometry):
+    """
+    This class provides an Instantiation with width and height
+    """
     def __init__(self, width, height):
         bg = BaseGeometry()
         self.__width = width
