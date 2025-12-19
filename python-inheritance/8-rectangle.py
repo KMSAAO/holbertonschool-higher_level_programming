@@ -4,6 +4,7 @@ This file wil provides a class rectangle that inherits from BaseGeometry
 """
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
+
 class Rectangle(BaseGeometry):
     """
     This class provides an Instantiation with width and height
