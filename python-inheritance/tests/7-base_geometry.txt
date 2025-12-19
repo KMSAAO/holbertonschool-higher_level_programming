@@ -36,3 +36,9 @@ Test 5: test integer_validator():
     Traceback (most recent call last):
     ...
     TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+Test 6: test integer_validator with one arg:
+    >>> bg.integer_validator("age")
+    Traceback (most recent call last):
+    ...
+    TypeError: integer_validator() missing 1 required positional argument: 'value'
