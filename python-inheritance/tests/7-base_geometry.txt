@@ -39,4 +39,4 @@ Test 5: test integer_validator():
 
 Test 6: test integer_validator with one arg:
     >>> bg.integer_validator("age", 1)
-    
+    True
