@@ -27,13 +27,13 @@ class Circle(Shape):
     def __init__(self, radius):
         if radius <= 0:
             return None
-        self.rad = radius
+        self.radius = radius
 
     def area(self):
-        return self.rad * self.rad * math.pi
+        return self.radius * self.radius * math.pi
 
     def perimeter(self):
-        return 2 * self.rad * math.pi
+        return 2 * self.radius * math.pi
 
 
 class Rectangle(Shape):
@@ -42,8 +42,6 @@ class Rectangle(Shape):
     """
 
     def __init__(self, width, height):
-        if height <= 0 or width <= 0:
-            return None
         self.height = height
         self.width = width
 
