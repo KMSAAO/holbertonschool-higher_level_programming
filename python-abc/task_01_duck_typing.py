@@ -41,7 +41,7 @@ class Rectangle(Shape):
     This class provide two methods area and perimeter
     """
 
-    def __init__(self, height, width):
+    def __init__(self, width, height):
         if height <= 0 or width <= 0:
             return None
         self.height = height
