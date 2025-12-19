@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 This file provide an abstract Shape
 """
 from abc import ABC, abstractmethod
-import math
 
 
 class Shape(ABC):
@@ -30,10 +29,10 @@ class Circle(Shape):
         self.radius = radius
 
     def area(self):
-        return self.radius * self.radius * math.pi
+        return self.radius * self.radius * 3.14159265359
 
     def perimeter(self):
-        return 2 * self.radius * math.pi
+        return 2 * self.radius * 3.14159265359
 
 
 class Rectangle(Shape):
