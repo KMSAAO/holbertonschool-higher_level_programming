@@ -31,3 +31,9 @@ Test 4: test area():
     ...
     Exception: area() is not implemented
 
+Test 5: test integer_validator():
+    >>> bg.integer_validator()
+    Traceback (most recent call last):
+    ...
+    TypeError: BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
