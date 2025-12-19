@@ -2,7 +2,7 @@
 """
 This module provides a function checks if an object is
 an instance of class that inherited (directly or indirectly)
-from a specified class
+in a specified class
 """
 
 
