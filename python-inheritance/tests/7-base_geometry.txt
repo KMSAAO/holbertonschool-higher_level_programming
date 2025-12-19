@@ -1,0 +1,26 @@
+Test for base_geometry
+======================
+Import the module:
+    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+Define var:
+    >>> bg = BaseGeometry()
+
+
+Test 1: test if the value is a name:
+    >>> bg.integer_validator("name", "khalid")
+    Traceback (most recent call last):
+    ...
+    TypeError: name must be an integer
+
+Test 2: test if value equal 0:
+    >>> bg.integer_validator("age", 0)
+    Traceback (most recent call last):
+    ...
+    ValueError: age must be greater than 0
+
+Test 3: test if value less than 0:
+    >>> bg.integer_validator("distance", -3)
+    Traceback (most recent call last):
+    ...
+    ValueError: distance must be greater than 0
