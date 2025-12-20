@@ -60,8 +60,8 @@ def shape_info(obj):
 
 
 if __name__ == "__main__":
-    circ = Circle(5)
-    rect = Rectangle(4, 7)
+    Circle = Circle(5)
+    Rectangle = Rectangle(4, 7)
 
-    shape_info(circ)
-    shape_info(rect)
+    shape_info(Circle)
+    shape_info(Rectangle)
