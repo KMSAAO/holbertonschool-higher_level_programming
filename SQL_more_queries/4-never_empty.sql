@@ -1,0 +1,5 @@
+-- Script that creates table with id deafault value
+CREATE TABLE IF NOT EXISTS id_not_null (
+    id INT DEFAULT '1',
+    name VARCHAR(256)
+);
